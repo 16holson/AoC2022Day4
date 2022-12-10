@@ -24,6 +24,7 @@ def main():
         total = total + findContains(line, pattern)
 
     print(f"Total number of contains: {total}")
+    file.close()
 
 
 if (__name__ == "__main__"):
